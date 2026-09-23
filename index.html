@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Check how long you have left to file a complaint about a private career college in Alberta, British Columbia or Ontario. Deadlines cited to government sources. No data collected.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://studentrecourse.ca/">
+<title>The Complaint Clock</title>
+<style>
+/* Self-hosted so this page makes no third-party requests of any kind.
+   Newsreader and Public Sans are both SIL Open Font License 1.1.
+   Variable fonts: one file covers the whole weight range. */
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:200 800;font-display:swap;src:url(fonts/newsreader.woff2) format('woff2');}
+@font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url(fonts/newsreader-italic.woff2) format('woff2');}
+@font-face{font-family:'Public Sans';font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/public-sans.woff2) format('woff2');}
+</style>
+<style>
+/* Student Recourse Canada — visual identity v1.0.
+   The Rule (left border) carries deadline state; it is never decoration. */
+:root{
+  --paper:#F7F8FA; --surface:#FFFFFF; --ink:#16202B; --ink-2:#41505F; --muted:#6B7A89;
+  --hairline:#DDE3EA; --hairline-2:#EDF1F5; --stamp:#1B4965; --stamp-soft:#E7EFF4;
+  --closed:#A63A2B; --closed-bg:#F7E9E6;
+  --closing:#9A6B1E; --closing-bg:#F9F0DF;
+  --open:#2C6E49; --open-bg:#E6F0EA;
+  --track:#E4E9EF;
+  --shadow:0 1px 2px rgba(22,32,43,.06),0 8px 24px -14px rgba(22,32,43,.20);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0F151B; --surface:#161E27; --ink:#E9EEF3; --ink-2:#AEBCC8; --muted:#8395A3;
+    --hairline:#2A3641; --hairline-2:#1E2831; --stamp:#7FB2CE; --stamp-soft:#1A2A36;
+    --closed:#E8907F; --closed-bg:#2E1D19;
+    --closing:#DDB169; --closing-bg:#2C2416;
+    --open:#7FBE9B; --open-bg:#16271E;
+    --track:#26313B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -14px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F151B; --surface:#161E27; --ink:#E9EEF3; --ink-2:#AEBCC8; --muted:#8395A3;
+  --hairline:#2A3641; --hairline-2:#1E2831; --stamp:#7FB2CE; --stamp-soft:#1A2A36;
+  --closed:#E8907F; --closed-bg:#2E1D19;
+  --closing:#DDB169; --closing-bg:#2C2416;
+  --open:#7FBE9B; --open-bg:#16271E;
+  --track:#26313B;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -14px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:840px;margin:0 auto;padding:0 22px}
+a{color:var(--stamp)}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{
+  outline:2px solid var(--stamp);outline-offset:2px;border-radius:2px;}
+
+/* masthead — the Rule + wordmark */
+header.mast{border-bottom:1px solid var(--hairline);background:var(--surface)}
+.mast-in{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:15px 0;flex-wrap:wrap}
+.lockup{display:flex;align-items:stretch;gap:11px}
+.lockup .bar{width:4px;border-radius:1px;background:var(--stamp);flex:none}
+.word{font-family:Newsreader,Georgia,serif;font-size:1.1rem;font-weight:600;letter-spacing:-.005em;line-height:1.25;align-self:center}
+.word em{font-style:normal;color:var(--stamp)}
+.mast-note{font-size:.72rem;color:var(--muted);letter-spacing:.13em;text-transform:uppercase;font-weight:600}
+
+.hero{padding:54px 0 6px}
+.kicker{font-size:.73rem;letter-spacing:.14em;text-transform:uppercase;color:var(--stamp);font-weight:700;margin:0 0 14px}
+h1{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:clamp(2.05rem,5.2vw,3.1rem);
+  line-height:1.1;letter-spacing:-.016em;margin:0 0 18px;text-wrap:balance}
+.standfirst{font-size:1.08rem;color:var(--ink-2);max-width:60ch;margin:0 0 11px}
+.standfirst strong{color:var(--ink);font-weight:600}
+
+.panel{background:var(--surface);border:1px solid var(--hairline);border-radius:3px;box-shadow:var(--shadow);margin:32px 0 0}
+.panel-hd{padding:16px 22px;border-bottom:1px solid var(--hairline-2);display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.panel-hd h2{font-family:Newsreader,Georgia,serif;font-size:1.2rem;font-weight:600;margin:0}
+.privacy{font-size:.77rem;color:var(--muted);display:flex;align-items:center;gap:7px}
+.privacy::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--open);flex:none}
+.fields{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:22px}
+@media(max-width:660px){.fields{grid-template-columns:1fr;gap:16px}}
+label{display:block;font-size:.76rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:0 0 7px}
+select,input[type=date]{width:100%;padding:10px 11px;font:inherit;font-size:.96rem;color:var(--ink);
+  background:var(--paper);border:1px solid var(--hairline);border-radius:2px}
+.hint{font-size:.78rem;color:var(--muted);margin:7px 0 0;line-height:1.45}
+
+.results{padding:0 22px 22px;display:flex;flex-direction:column;gap:19px}
+.clock{border-top:1px solid var(--hairline-2);padding-top:18px;display:flex;gap:13px}
+.clock .bar{width:4px;border-radius:1px;flex:none;background:var(--track)}
+.clock.open .bar{background:var(--open)}
+.clock.closing .bar{background:var(--closing)}
+.clock.closed .bar{background:var(--closed)}
+.clock.none .bar{background:var(--stamp)}
+.clock-in{flex:1;min-width:0}
+.clock-top{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:3px}
+.clock-name{font-weight:600;font-size:1.02rem}
+.chip{font-size:.73rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:2px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.chip.open{background:var(--open-bg);color:var(--open)}
+.chip.closing{background:var(--closing-bg);color:var(--closing)}
+.chip.closed{background:var(--closed-bg);color:var(--closed)}
+.chip.none{background:var(--stamp-soft);color:var(--stamp)}
+.clock-date{font-size:.91rem;color:var(--ink-2);font-variant-numeric:tabular-nums;margin-bottom:11px}
+.clock-date b{color:var(--ink);font-weight:600}
+.runway{position:relative;height:8px;background:var(--track);border-radius:1px;overflow:hidden}
+.runway .used{position:absolute;inset:0 auto 0 0;border-radius:1px}
+.runway .used.open{background:var(--open)}
+.runway .used.closing{background:var(--closing)}
+.runway .used.closed{background:var(--closed)}
+.scale{display:flex;justify-content:space-between;font-size:.72rem;color:var(--muted);margin-top:6px;font-variant-numeric:tabular-nums}
+.clock-body{font-size:.89rem;color:var(--ink-2);margin:11px 0 0;max-width:66ch}
+.clock-cite{font-size:.78rem;margin:7px 0 0}
+.clock-cite a{color:var(--muted);text-decoration-color:var(--hairline)}
+.clock-cite a:hover{color:var(--stamp)}
+.alarm{margin:0;padding:14px 22px;background:var(--closed-bg);border-top:1px solid var(--hairline-2);color:var(--closed);font-weight:600;font-size:.93rem}
+
+section.prose{padding:46px 0 0}
+h2.sec{font-family:Newsreader,Georgia,serif;font-size:1.5rem;font-weight:600;margin:0 0 16px;letter-spacing:-.012em}
+.prose p{max-width:65ch;color:var(--ink-2);margin:0 0 15px}
+.prose p strong{color:var(--ink)}
+ol.steps{list-style:none;counter-reset:s;padding:0;margin:0;display:flex;flex-direction:column;gap:16px}
+ol.steps li{counter-increment:s;padding-left:42px;position:relative;max-width:65ch;color:var(--ink-2)}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:1px;width:26px;height:26px;display:grid;place-items:center;
+  border:1px solid var(--hairline);border-radius:50%;font-size:.8rem;font-weight:700;color:var(--stamp);background:var(--surface)}
+ol.steps b{color:var(--ink);font-weight:600;display:block;margin-bottom:2px}
+.twocol{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:6px}
+@media(max-width:660px){.twocol{grid-template-columns:1fr}}
+.scope{border-left:2px solid var(--hairline);padding:2px 0 2px 15px}
+.scope h3{font-size:.76rem;letter-spacing:.09em;text-transform:uppercase;margin:0 0 8px;color:var(--muted);font-weight:700}
+.scope.can{border-left-color:var(--open)}
+.scope.cant{border-left-color:var(--closed)}
+.scope ul{margin:0;padding-left:17px;color:var(--ink-2);font-size:.92rem}
+.scope li{margin-bottom:5px}
+.notice{margin-top:20px;padding:16px 18px;background:var(--stamp-soft);border-radius:3px;font-size:.91rem;color:var(--ink-2);max-width:66ch}
+.notice b{color:var(--ink)}
+footer{margin-top:52px;border-top:1px solid var(--hairline);padding:24px 0 60px}
+footer p{font-size:.81rem;color:var(--muted);max-width:70ch;margin:0 0 10px;line-height:1.55}
+@media(prefers-reduced-motion:no-preference){.runway .used{transition:width .45s cubic-bezier(.3,.8,.4,1)}}
+</style>
+</head>
+<body>
+
+<header class="mast"><div class="wrap mast-in">
+  <div class="lockup"><span class="bar"></span><div class="word">Student <em>Recourse</em> Canada</div></div>
+  <div class="mast-note">Free deadline check</div>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <p class="kicker">Private career colleges</p>
+    <h1>Your time to complain is already running.</h1>
+    <p class="standfirst">In Alberta you have <strong>six months from your last day of attendance</strong> to bring a complaint to the provincial regulator. Most students find that out after it has expired.</p>
+    <p class="standfirst">Enter three details. See exactly how long is left.</p>
+  </div>
+
+  <div class="panel">
+    <div class="panel-hd">
+      <h2>Check your deadlines</h2>
+      <span class="privacy">Nothing you type leaves your browser</span>
+    </div>
+    <div class="fields">
+      <div>
+        <label for="prov">Province of the campus</label>
+        <select id="prov">
+          <option value="AB" selected>Alberta</option>
+          <option value="BC">British Columbia</option>
+          <option value="ON">Ontario</option>
+          <option value="OTHER">Another province</option>
+        </select>
+      </div>
+      <div>
+        <label for="status">What happened</label>
+        <select id="status">
+          <option value="withdrew" selected>I withdrew</option>
+          <option value="dismissed">I was dismissed</option>
+          <option value="completed">I finished the program</option>
+          <option value="enrolled">I'm still enrolled</option>
+        </select>
+      </div>
+      <div>
+        <label for="last">Last day you attended</label>
+        <input type="date" id="last" value="2026-05-20">
+        <p class="hint">Not the day you enrolled, and not the day you complained. Attendance is what starts the clock.</p>
+      </div>
+    </div>
+    <div class="results" id="results"></div>
+    <p class="alarm" id="alarm" hidden></p>
+  </div>
+
+  <section class="prose">
+    <h2 class="sec">What to do next</h2>
+    <ol class="steps">
+      <li><b>Save everything today</b>Your enrolment contract, receipts, emails, and screenshots of the pages that made the promises. Colleges edit their websites once a dispute starts. A screenshot with a date is evidence; a memory is not.</li>
+      <li><b>Complain to the college in writing</b>Every regulator expects you to use the college's own complaint process first, and to be able to prove you did. Ask them for their written complaint procedure — they are required to give it to you.</li>
+      <li><b>File with the regulator before your window closes</b>In Alberta that is the Private Career Colleges and Compliance Branch, at <a href="mailto:pcc.compliance@gov.ab.ca">pcc.compliance@gov.ab.ca</a>. Filing a thin complaint on time beats a perfect one filed late.</li>
+    </ol>
+    <div class="notice">
+      <b>Alberta's rules are changing.</b> The Private Vocational Training Amendment Act received Royal Assent in November 2025 and is expected to come into force through fall 2026, phased. It creates a student tuition protection fund and new obligations for colleges. The six-month complaint window is <b>unchanged as of 21 September 2026</b> — if you are near your deadline, act on the rule that exists today.
+    </div>
+  </section>
+
+  <section class="prose">
+    <h2 class="sec">What this covers</h2>
+    <div class="twocol">
+      <div class="scope can">
+        <h3>Complaints that fit</h3>
+        <ul>
+          <li>Job-placement or salary claims that turned out to be false</li>
+          <li>Accreditation or certification that does not exist</li>
+          <li>Refunds refused or never paid</li>
+          <li>Programs cancelled or materially changed</li>
+          <li>Undisclosed or improper fees</li>
+          <li>Terms of the enrolment contract broken</li>
+        </ul>
+      </div>
+      <div class="scope cant">
+        <h3>Goes somewhere else</h3>
+        <ul>
+          <li>Grade appeals — the college's academic process</li>
+          <li>Discrimination or harassment — provincial human rights commission</li>
+          <li>Public colleges and universities — their own ombudsperson</li>
+          <li>Anything needing legal advice — a lawyer, and we will say so plainly</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><b>Student Recourse Canada is not a law firm.</b> This page gives you information and dates so you can act in time. It is not legal advice, and no relationship is created by using it. Every deadline shown links to the government source it comes from — check it before you rely on it, and talk to a lawyer about your own situation.</p>
+    <p>Deadline rules verified 21 September 2026 against the sources cited above. Limitation periods for court claims depend on when a reasonable person would have discovered the problem, so those dates are estimates only.</p>
+  </footer>
+</main>
+
+<script>
+const RULES = {
+  AB:{rules:[
+    {id:"ab",label:"Complaint to the Alberta regulator (PCCCB)",months:6,kind:"reg",
+     body:"Complaints must be submitted within 6 months of the last day you attended the program. Send them to pcc.compliance@gov.ab.ca after you have tried the college's own complaint process in writing.",
+     cite:"Alberta.ca — Student complaints",url:"https://www.alberta.ca/student-complaints"},
+    {id:"abciv",label:"Court claim (general limitation)",months:24,kind:"civ",
+     body:"Alberta's basic limitation period for a civil claim is 2 years, usually running from when you discovered the problem. Discoverability can move this date — treat it as an estimate.",
+     cite:"Limitations Act, RSA 2000, c L-12, s 3",url:"https://www.canlii.org/en/ab/laws/stat/rsa-2000-c-l-12/latest/"}]},
+  BC:{rules:[
+    {id:"bc",label:"Claim to PTIRU — misled by the institution",months:12,kind:"reg",
+     body:"A claim that you were misled must reach the Private Training Institutions Regulatory Unit within one year of completing, withdrawing, or being dismissed. General complaints have no stated deadline, but the money claim does.",
+     cite:"PTIRU — Complaints and tuition protection claims",url:"https://www.privatetraininginstitutions.gov.bc.ca/students/complaints-tuition-protection-claims"},
+    {id:"bcciv",label:"Court claim (general limitation)",months:24,kind:"civ",
+     body:"British Columbia's basic limitation period is 2 years from discovery of the claim. An estimate, not a fixed date.",
+     cite:"Limitation Act, SBC 2012, c 13, s 6",url:"https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/12013_01"}]},
+  ON:{rules:[
+    {id:"on",label:"Referral to the Superintendent of Career Colleges",months:null,kind:"reg",
+     body:"Ontario publishes no fixed deadline for referring a complaint to the Superintendent — but you must complete the college's internal complaint process first, and file through the PARIS portal. No deadline is not the same as no hurry: evidence disappears and memories fade. Treat six months from the college's decision as your own working limit.",
+     cite:"Ontario.ca — Career college student complaints",url:"https://www.ontario.ca/page/career-college-student-complaints"},
+    {id:"onciv",label:"Court claim (general limitation)",months:24,kind:"civ",
+     body:"Ontario's basic limitation period is 2 years from discovery of the claim. An estimate, not a fixed date.",
+     cite:"Limitations Act, 2002, SO 2002, c 24, Sch B, s 4",url:"https://www.ontario.ca/laws/statute/02l24"}]},
+  OTHER:{rules:[
+    {id:"oth",label:"Your provincial regulator",months:null,kind:"reg",
+     body:"Every province regulates private career colleges differently and the filing windows vary. Find your provincial regulator and ask them directly what the deadline is — do that this week, not next month.",
+     cite:"Varies by province",url:null},
+    {id:"othciv",label:"Court claim (general limitation)",months:24,kind:"civ",
+     body:"Most provinces apply a 2-year basic limitation period running from discovery. Verify your own province's Limitations Act.",
+     cite:"Varies by province",url:null}]}
+};
+const fmt = d => d.toLocaleDateString("en-CA",{year:"numeric",month:"long",day:"numeric",timeZone:"UTC"});
+const parse = s => { const [y,m,d]=s.split("-").map(Number); return new Date(Date.UTC(y,m-1,d)); };
+const addMonths = (dt,n) => { const x=new Date(dt.getTime()); x.setUTCMonth(x.getUTCMonth()+n); return x; };
+const DAY = 86400000;
+
+function render(){
+  const prov=document.getElementById("prov").value;
+  const status=document.getElementById("status").value;
+  const lastEl=document.getElementById("last");
+  const out=document.getElementById("results"), alarm=document.getElementById("alarm");
+  out.innerHTML=""; alarm.hidden=true;
+
+  if(status==="enrolled"){
+    out.innerHTML='<div class="clock none"><span class="bar"></span><div class="clock-in"><p class="clock-body">'
+      +"You're still enrolled, so the regulator's clock hasn't started — in Alberta it runs from your <em>last day of attendance</em>. "
+      +"That is an advantage: raise your complaint with the college in writing now, while you are still a student and they still have a reason to fix it. Keep every reply."
+      +"</p></div></div>";
+    return;
+  }
+  if(!lastEl.value){
+    out.innerHTML='<div class="clock none"><span class="bar"></span><div class="clock-in"><p class="clock-body">Enter your last day of attendance to see your deadlines.</p></div></div>';
+    return;
+  }
+  const start=parse(lastEl.value);
+  const today=new Date(); today.setUTCHours(0,0,0,0);
+  let tightest=null;
+
+  for(const r of RULES[prov].rules){
+    const el=document.createElement("div");
+    let cls,chip,dateLine,runway="";
+    if(r.months===null){
+      cls="none"; chip="No fixed deadline";
+      dateLine="<b>File as soon as you can.</b> No published window — but delay costs you evidence.";
+    }else{
+      const due=addMonths(start,r.months);
+      const left=Math.round((due-today)/DAY);
+      const total=Math.round((due-start)/DAY);
+      const used=Math.max(0,Math.min(100,((total-left)/total)*100));
+      if(left<0){cls="closed";chip=`Closed ${Math.abs(left)} days ago`;}
+      else if(left<=90){cls="closing";chip=`${left} days left`;}
+      else {cls="open";chip=`${left} days left`;}
+      if(left>=0&&left<=30) cls="closed";
+      dateLine=`Deadline <b>${fmt(due)}</b> &nbsp;·&nbsp; ${r.months} months from ${fmt(start)}`;
+      runway=`<div class="runway"><div class="used ${cls}" style="width:${used}%"></div></div>`
+        +`<div class="scale"><span>${fmt(start)}</span><span>${fmt(due)}</span></div>`;
+      if(r.kind==="reg"&&(tightest===null||left<tightest)) tightest=left;
+    }
+    el.className="clock "+cls;
+    el.innerHTML=`<span class="bar"></span><div class="clock-in">`
+      +`<div class="clock-top"><span class="clock-name">${r.label}</span><span class="chip ${cls}">${chip}</span></div>`
+      +`<div class="clock-date">${dateLine}</div>${runway}`
+      +`<p class="clock-body">${r.body}</p>`
+      +(r.url?`<p class="clock-cite"><a href="${r.url}" target="_blank" rel="noopener">${r.cite} ↗</a></p>`
+             :`<p class="clock-cite">${r.cite}</p>`)
+      +`</div>`;
+    out.appendChild(el);
+  }
+  if(tightest!==null&&tightest<0){
+    alarm.hidden=false;
+    alarm.textContent="Your regulator window has closed. That does not mean you have no options — a written demand to the college, and a court claim, run on separate clocks. Get advice quickly.";
+  }else if(tightest!==null&&tightest<=30){
+    alarm.hidden=false;
+    alarm.textContent="Under 30 days left. File something now, even if it is incomplete — you can send documents afterwards. Do not wait until the file is perfect.";
+  }
+}
+for(const id of ["prov","status","last"]) document.getElementById(id).addEventListener("input",render);
+render();
+</script>
+</body>
+</html>
